@@ -1,25 +1,10 @@
-<title>TON Dashboard</title>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-<h2>🚀 TON Mini App Dashboard</h2>
-<p>0.00 TON</p>
-<p>0 Users</p>
-<div class="card">
-  <h3>👤 User</h3>
-</div>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEST APP</title>
+  </head>
+  <body style="background:#111;color:white;text-align:center;padding-top:50px;">
+    <h1>🚀 MINI APP LOADED</h1>
+    <p>If you see this, Render is working.</p>
+  </body>
 </html>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-
-<script>
-  const tg = window.Telegram.WebApp;
-  tg.expand();
-
-  const user = tg.initDataUnsafe?.user;
-
-  if (user) {
-    document.getElementById("user").innerText =
-      user.first_name + (user.last_name ? " " + user.last_name : "");
-  } else {
-    document.getElementById("user").innerText = "Telegram User";
-  }
-</script>
